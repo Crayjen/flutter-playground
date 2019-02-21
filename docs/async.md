@@ -2,6 +2,10 @@
 
 ## Basics
 
+**Flutter is declarative. Flutter builds its user interface to reflect the current state of your app**
+
+The declarative style of UI programming has many benefits. Remarkably, there is only one code path for any state of the UI. You describe what the UI should look like for any given state, once — and that is it.
+
 * Dart code runs in a single “thread” of execution.
 * Code that blocks the thread of execution can make your program freeze.
 * Future objects (futures) represent the results of asynchronous operations — processing or I/O to be completed later.
